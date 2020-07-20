@@ -11,7 +11,7 @@
       "type": "vector",
       "minzoom": 6,
       "tiles": [
-        "https://_n8b05qfxt8.execute-api.us-east-1.amazonaws.com/dev/tiles/{z}/{x}/{y}.mvt"
+        "https://n8b05qfxt8.execute-api.us-east-1.amazonaws.com/dev/tiles/{z}/{x}/{y}.mvt"
       ]
     }
   },
