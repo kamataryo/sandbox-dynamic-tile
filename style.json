@@ -10,9 +10,7 @@
     "geolonia": {
       "type": "vector",
       "minzoom": 6,
-      "tiles": [
-        "https://n8b05qfxt8.execute-api.us-east-1.amazonaws.com/dev/tiles/{z}/{x}/{y}.mvt"
-      ]
+      "url": "https://n8b05qfxt8.execute-api.us-east-1.amazonaws.com/dev/tiles.json"
     }
   },
   "sprite": "https://sprites.geolonia.com/basic",
