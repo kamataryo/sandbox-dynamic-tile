@@ -1,0 +1,260 @@
+{
+  "basename": "tiles.mbtiles",
+  "id": "openmaptiles",
+  "filesize": "1847549952",
+  "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a>",
+  "bounds": [-180, -85.0511, 180, 85.0511],
+  "center": [-12.2168, 28.6135, 4],
+  "description": "A tileset based on OpenStreetMap.",
+  "maxzoom": 14,
+  "minzoom": 0,
+  "name": "Geolonia",
+  "pixel_scale": "256",
+  "mtime": "1594428701976",
+  "format": "pbf",
+  "type": "baselayer",
+  "version": "3.8",
+  "vector_layers": [
+    {
+      "id": "water",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String"
+      }
+    },
+    {
+      "id": "waterway",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "brunnel": "String"
+      }
+    },
+    {
+      "id": "landcover",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String",
+        "subclass": "String"
+      }
+    },
+    {
+      "id": "landuse",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String"
+      }
+    },
+    {
+      "id": "mountain_peak",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "rank": "Number"
+      }
+    },
+    {
+      "id": "park",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "rank": "Number"
+      }
+    },
+    {
+      "id": "boundary",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "admin_level": "Number",
+        "disputed": "Number",
+        "maritime": "Number"
+      }
+    },
+    {
+      "id": "aeroway",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "ref": "String",
+        "class": "String"
+      }
+    },
+    {
+      "id": "transportation",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "class": "String",
+        "subclass": "String",
+        "oneway": "Number",
+        "ramp": "Number",
+        "brunnel": "String",
+        "service": "String",
+        "layer": "Number",
+        "level": "Number",
+        "indoor": "Number"
+      }
+    },
+    {
+      "id": "building",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "render_height": "Number",
+        "render_min_height": "Number",
+        "hide_3d": "Boolean"
+      }
+    },
+    {
+      "id": "water_name",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String"
+      }
+    },
+    {
+      "id": "transportation_name",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "ref": "String",
+        "ref_length": "Number",
+        "network": "String",
+        "class": "String",
+        "subclass": "String",
+        "layer": "Number",
+        "level": "Number",
+        "indoor": "Number"
+      }
+    },
+    {
+      "id": "place",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "rank": "Number",
+        "capital": "Number",
+        "iso_a2": "String"
+      }
+    },
+    {
+      "id": "poi",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "subclass": "String",
+        "agg_stop": "Number",
+        "layer": "Number",
+        "level": "Number",
+        "indoor": "Number",
+        "rank": "Number"
+      }
+    },
+    {
+      "id": "aerodrome_label",
+      "description": "",
+      "minzoom": 0,
+      "maxzoom": 14,
+      "fields": {
+        "osm_id": "Number",
+        "name": "String",
+        "name_en": "String",
+        "name_de": "String",
+        "name:en": "String",
+        "name:ja": "String",
+        "name_int": "String",
+        "name:latin": "String",
+        "name:nonlatin": "String",
+        "class": "String",
+        "iata": "String",
+        "icao": "String",
+        "ele": "Number",
+        "ele_ft": "Number"
+      }
+    }
+  ],
+  "scheme": "xyz",
+  "tiles": ["https://d16qozlmbj09xn.cloudfront.net/tiles/{z}/{x}/{y}.mvt"]
+}
